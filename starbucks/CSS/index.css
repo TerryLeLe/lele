@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+@import "reset.css";
+/*初始化页面*/
+
+
+
+
+
+
+
+/*侧边栏*/
+
+.left-aside{
+	width: 400px;
+	float: left;
+}
+.left-aside section{
+	background: url(../images/background.gif);
+	margin-bottom: 10px;
+	padding: 20px;
+}
+
+.left-aside h3{
+	color: #026237;
+	font-size: 1.5em;
+	font-weight: bold; 
+	margin-bottom: 18px;
+}
+.aside-news p{
+	line-height: 2em;
+	font-weight: bold;
+}
+.aside-news p a{
+	color: #026237;
+	text-decoration: none;
+}
+
+.drinks figure{
+	float: left;
+}
+.drinks figure figcaption{
+	text-align: center;
+	/*font-size: large;*/
+}
+.drinks img{
+	border:3px solid white;
+	width: 164px;
+}
+
+.drinks .figure-r{
+	margin-left: 20px;
+}
+
+/*这是清除浮动的第二种方式
+给父级块级div元素 增加定义 overflow：auto 和zoom：1：*/
+.drinks{
+	overflow: auto;
+	zoom: 1;
+
+}
+
+
+/*第三种清除浮动样式
+利用 after或者before 在元素内部插入元素快 从而达到清除浮动样式
+元颗粒类似 clear：both；区别是一个没有增加新元素标签*/
+
+.drinks:after{
+	clear: both;
+	content: ".";
+	display:block;
+	width:0;
+	height: 0;
+	visibility: hidden;
+}
+.drinks{
+	zoom: 1;
+}
+
+.drinks figcaption{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+main{
+	float: left;
+	width: 856px;
+	margin-left: 10px;
+	background: url(../images/background.gif);
+}
+
+main article{
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom:1px dashed #c9bfa1;
+	padding: 20px;
+}
+main .last-article{
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border-bottom:none;
+
+}
+main h3{
+	color: #026237;
+	font-size: 1.5em;
+	margin-bottom: 10px;
+	font-weight: 900;
+}
+main article time{
+	color: #645839;
+
+}
+main article p{
+	line-height: 1.5em;
+	text-indent: 30px;
+	margin: 30px;
+}
+main article b{
+	font-weight: bold;
+	color: #675c47;
+}
+
+main article small{
+	font-size: 0.8em;
+	color: #808080;
+
+}
+main article footer{
+	text-align: right;
+	font-size: 0.8em;
+	color:#675c47;
+}
+/*页脚*/
+
+

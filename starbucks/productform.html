@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>在线订购</title>
+	<link rel="shortcut icon" href="./images/favicon.ico">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/productform.css">
+</head>
+<body>
+	
+	<div id="wrap">
+			<header class="top-header">
+			<h1 class="logo">在线订购</h1>
+			<nav class="top-menu">
+				<ul>
+				<!-- title是为了增加机器搜索的排名，也为 -->
+					<li ><a href="index.html" title="星巴克主页">主页</a></li>
+					<li><a href="#" title="咖啡及文化">咖啡及文化</a></li>
+					<li><a href="#" title="饮品及美食">饮品及美食</a></li>
+					<li><a href="#" title="星享俱乐部">星享俱乐部</a></li>
+					<li class="selected"><a href="#" title="星巴克在线订购">在线订购</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<h3>订购星巴克咖啡豆</h3>
+			<form action="success.html">
+			<!-- 第一行 -->
+				<div class="row">
+					<div class="cell">
+						<label for="beans">你喜欢的咖啡豆品种：</label>
+					</div>
+
+					<div class="cell">
+						<input type="text" name="beans" list="beans_list">
+						<datalist id="beans_list">
+							<option value="雀巢咖啡"></option>
+							<option value="可比克咖啡"></option>
+							<option value="麦当劳咖啡"></option>
+						</datalist>
+					</div>
+				</div>
+				<!-- 第二行 -->
+				<div class="row">
+					<div class="cell">
+						类型:
+					</div>
+					<div class="cell">
+						<input type="radio" name="type" id="type1" value="1" checked="">
+						<label for="type">咖啡豆</label><br>
+						<input type="radio" name="type" id="type2" value="2">
+						<label for="type">咖啡粉</label><br>
+					</div>
+				</div>
+				<!-- 第三行 -->
+				<div class="row">
+					<div class="cell">
+						<label for="">数量（袋）</label>
+					</div>
+					<div class="cell">
+						<input type="number" name="bags" id="bags" min="1" max="10">
+					</div>
+				</div>
+				<!-- 第四行 -->
+				<div class="row">
+					<div class="cell">
+						<label for="date">希望送货日期:</label>
+					</div>
+					<div class="cell">
+						<input type="date" name="date" id="date">
+					</div>
+				</div>
+				<!-- 第五行 -->
+				<div class="row">
+					<div class="cell">
+						附加服务:
+					</div>
+					<div class="cell">
+						<input type="checkbox" name="service" id="service1" value="1">
+						<label for="service1">礼品包装</label><br>
+						<input type="checkbox" name="service" id="service2" value="2">
+						<label for="service2">商品目录</label>
+					</div>
+				</div>
+				<!-- 第六行 -->
+				<div class="row">
+					<div class="cell heading">
+						邮寄地址
+					</div>
+					<div class="cell"></div>
+				</div>
+				<!-- 第七行 -->
+				<div class="row">
+					<div class="cell">
+						<label for="uname">姓名:</label>
+					</div>
+					<div class="cell">
+						<input type="text" id="uname" name="uname" placeholder="请输入收货人的姓名" required="">
+					</div>
+				</div>
+				<!-- 第八行 -->
+				<div class="row">
+					<div class="cell">
+						<label for="uaddress">详细地址:</label>
+					</div>
+					<div class="cell">
+						<input type="text" id="uaddress" name="uaddress" placeholder="请输入收货详细地址" required="">
+					</div>
+				</div>
+				<!-- 第九行 -->
+				<div class="row">
+					<div class="cell">
+						<label for="zip_code">邮编</label>
+					</div>
+					<div class="cell">
+						<input type="text" id="zip_code" name="zip_code" placeholder="请输入邮编" required=""> 
+					</div>
+				</div>
+				<!-- 第十行 -->
+				<div class="row">
+					<div class="cell">
+						<label for="phone">联系电话:</label>
+					</div>
+					<div class="cell">
+						<input type="tel" id="phone" name="phone" placeholder="请输入收货人电话" required="">
+					</div>
+				</div>
+				<!-- 第十一行 -->
+				<div class="row">
+					<div class="cell">
+						<label for="">留言:</label>
+					</div>
+					<div class="cell">
+						<textarea name="content" id="content" maxlength="50"></textarea>
+					</div>
+				</div>
+				<!-- 第十二行 -->
+				<div class="row">
+					<div class="cell"></div>
+					<div class="cell">
+						<input type="submit" value="现在订购">
+					</div>
+				</div>
+			</form>
+		</main>
+	</div>
+	<footer id="page-footer">
+		
+		@2015 Starbucks Corporation. All rights reserved
+	</footer>
+</body>
+</html>
