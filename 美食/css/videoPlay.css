@@ -1,0 +1,30 @@
+@charset "utf-8";*{margin:0;padding:0}
+a{text-decoration:none}
+li{list-style:none}
+html{height:100%;font-size:62.5%;font-family:'宋体'}
+body{background:#ffdac7 url(../images/video_bg.png) no-repeat;background-size:cover;width:100%;height:100%;position:relative}
+.video_header{width:100%;position:fixed;top:0;z-index:1000}
+.video_header .video_head_top{width:100%;height:1.25rem;background-color:#fd5c44;text-align:center;position:relative;line-height:1.5rem;font-size:.45rem;font-weight:700;color:#ffebe7;word-spacing:2px}
+.video_header .video_head_top .font{position:absolute}
+.video_header .video_head_top .font img{width:.375rem;height:.4rem}
+.video_header .video_head_top .goback{left:.5rem}
+.video_header .video_head_top .goback img{width:.3rem}
+.video_header .video_head_top .share{right:.575rem}
+.video_content{width:100%;margin-top:1.25rem;margin-bottom:100px}
+.video_content .video{width:100%;height:4.85rem;background-color:orange;overflow: hidden;position: relative;}
+.video_content .video video{position: absolute;bottom: 0;left: 0;width: 100%;}
+.video_content .video .play{width: 1.5rem;height: 1.5rem;position: absolute;z-index: 100;right: 0.75rem;bottom: 0.75rem;}
+.video_content .video .play img{width: 100%;}
+.jieshao_area{padding:.4875rem .85rem}
+.jieshao_area h4{font-size:.45rem;color:#fc1e19;margin-bottom:.4875rem}
+.jieshao_area p{font-size:.2625rem;color:#feab82}
+.pinglun_area{padding:.4875rem .85rem}
+.pinglun_area h5.head{position:relative;font-size:.3125rem;color:#fd645a;margin-bottom:.4rem}
+.pinglun_area .line{width:75%;border:1px solid #f98275;height:0;position:absolute;right:0;top:.18rem}
+.pinglun_area .pinglun{width:100%;padding:.4rem 0}
+.pinglun_area .pinglun .afanda{width:1.075rem;height:1.075rem;border-radius:.6rem;text-align:center;background:url(../images/video_touxiang1.png) no-repeat 50% 0;background-size:cover;float:left}
+.pinglun_area .pinglun .name{font-size:.275rem;color:#fc1e19;height:.55rem;line-height:.55rem}
+.pinglun_area .pinglun .shuo{font-size:.25rem;color:#ffac83}
+.video_footer{width:100%;height:2.0625rem;position:fixed;bottom:0;display:flex;flex-direction:row;background:url(../images/detail_bottom1.png) no-repeat,url(../images/detail_bottom2.png) no-repeat 0 90%;-webkit-background-size:cover;background-size:cover;justify-content:space-around;align-items:center}
+.video_footer .video_foot{width:.525rem}
+.video_footer .video_foot img{width:.525rem;height:.585rem}

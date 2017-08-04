@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>播放页</title>
+	<link rel="stylesheet" href="../css/videoPlay.css"> 
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta http-equiv="Expires" content="-1">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta http-equiv="Pragma" content="no-cache">
+	<script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
+
+<!-- <script src="http://html5media.googlecode.com/svn/trunk/src/html5media.min.js"></script> -->
+	<script type="text/javascript" src="../js/flexible.js"></script>
+</head>
+<body>
+	<header class="video_header">
+		<div class="video_head_top">播放页
+			<font class="font goback"><img src="../images/mine_goback.png" alt=""></font>
+			<font class="font share"><img src="../images/index_share.png" alt=""></font>
+		</div>
+	</header>
+	<main class="video_content">
+		<div class="video">
+			<video src="../images/movie.mp4" id="myVideo"></video>
+			<div class="play" id="play"><img src="../images/video_play.png" alt=""></div>
+		</div>
+		<div class="jieshao_area">
+			<h4>朱古力泡芙</h4>
+			<p>源自法国的朱古力泡芙的制作视频，全面揭晓这爽滑的美食制作过程本视频将教会你如何烘培可口的朱古力泡芙，使你在朋友面前施展你的厨艺请别忘记分享给和你一样的吃货。</p>
+		</div>
+		<div class="pinglun_area">
+			<h5 class="head">网友评论<p class="line"></p></h5>
+			<div class="pinglun">
+				<div class="afanda"></div>
+				<h5 class="name">西点君</h5>
+				<p class="shuo">在巴黎的时候吃过一次，那味道简直了……</p>
+			</div>
+			<div class="pinglun">
+				<div class="afanda"></div>
+				<h5 class="name">李峰</h5>
+				<p class="shuo">楼上的好装，你去过法国吗？这东西我明明在日本吃过。</p>
+			</div>
+		</div>
+	</main>
+	<footer class="video_footer">
+		<div class="video_foot">
+			<img src="../images/video_GPS.png" alt="">
+		</div>
+		<div class="video_foot">
+			<img src="../images/video_shouye.png" alt="">
+		</div>
+		<div class="video_foot">
+			<img src="../images/video_mine.png" alt="">
+		</div>
+	</footer>
+</body>
+<script type="text/javascript">
+// $("#play").click(function(){
+
+// 	console.log($("#myVideo")) // 播放
+// 	alert(1)
+// })
+
+var play = document.getElementById('play')
+var myVideo = document.getElementById('myVideo')
+
+play.onclick = function(){
+	if (myVideo.play()==true) {
+		myVideo.pause();
+	}else{
+		myVideo.play()
+	}
+}
+</script>
+</html>

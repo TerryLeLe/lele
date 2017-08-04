@@ -1,0 +1,30 @@
+@charset "utf-8";*{margin:0;padding:0}
+a{text-decoration:none}
+li{list-style:none}
+html{font-size:62.5%;font-family:'宋体'}
+body,html{height:100%}
+body{position:relative;width:100%;background:url(../images/detail_bg.png) no-repeat;background-size:cover}
+.detail_header{position:fixed;top:0;width:100%}
+.detail_header .detail_head_top{position:relative;width:100%;height:1.25rem;background-color:#fd5c44;color:#ffebe7;text-align:center;word-spacing:2px;font-weight:700;font-size:.45rem;line-height:1.5rem}
+.detail_header .detail_head_top .font{position:absolute}
+.detail_header .detail_head_top .font img{width:20px;height:1pc}
+.detail_header .detail_head_top .goback{left:.5rem}
+.detail_header .detail_head_top .goback img{width:13px}
+.detail_header .detail_head_top .share{right:.575rem}
+.detail_content{display:flex;box-sizing:border-box;margin-top:1.25rem;padding:.45rem 4.6%;width:100%;flex-direction:column}
+.detail_content figure{overflow:hidden;margin-bottom:.45rem;width:100%;border-radius:.2rem;box-shadow:2px 2px 3px 1px #feab94,-2px -2px 3px 1px #feab94}
+.detail_content figure img{width:100%}
+.detail_content figure figcaption{position:relative;box-sizing:border-box;margin-top:-2%;padding:.3125rem;width:100%;height:1.6875rem;background-color:#fef9f1}
+.detail_content figure figcaption .afamda{float:left;margin-right:.25rem;width:1.05rem;height:1.05rem;border-radius:.6rem;background:url(../images/detail_touxiang1.png) no-repeat 50% 0;background-size:cover;text-align:center}
+.detail_content figure figcaption .afamda.two{background:url(../images/detail_touxiang2.png) no-repeat 50% 0;background-size:cover}
+.detail_content figure figcaption h4{font-size:.35rem}
+.detail_content figure figcaption p{color:#73736e;font-size:.25rem;line-height:.8rem}
+.detail_content figure figcaption .span_wt{position:absolute;top:.55rem;right:.3125rem}
+.detail_content figure figcaption .span_wt span{display:inline-block;width:.8625rem}
+.detail_content figure figcaption .span_wt span:first-child{background:url(../images/detail_heart.png) no-repeat 90% 50%;background-size:.375rem}
+.detail_content figure figcaption .span_wt span:nth-child(2){background:url(../images/detail_pinglun.png) no-repeat 90% 50%;background-size:.375rem}
+.detail_footer{position:fixed;bottom:0;display:flex;width:100%;height:2.0625rem;background:url(../images/detail_bottom1.png) no-repeat,url(../images/detail_bottom2.png) no-repeat 0 90%;background-size:cover;flex-direction:row;justify-content:space-around;align-items:center}
+.detail_footer .detail_foot{width:.525rem;height:.85rem}
+.detail_footer .detail_foot.active{border-bottom:2px solid #fbe803}
+.detail_footer .detail_foot img{width:.525rem;height:.585rem}
+.bbbb{margin-bottom:200rem}

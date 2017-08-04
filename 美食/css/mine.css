@@ -1,0 +1,35 @@
+@charset "utf-8";*{margin:0;padding:0}
+a{text-decoration:none}
+li{list-style:none}
+html{height:100%;font-size:62.5%;font-family:'宋体'}
+body{background:url(../images/mine_bg1.png) no-repeat;background-size:cover;width:100%;height:100%;position:relative}
+.mine_header{width:100%;position:fixed;top:0}
+.mine_header .mine_head_top{width:100%;height:1.25rem;background-color:#fd5c44;text-align:center;position:relative;line-height:1.5rem;font-size:.45rem;font-weight:700;color:#ffebe7;word-spacing:2px}
+.mine_header .mine_head_top .font{position:absolute}
+.mine_header .mine_head_top .font img{width:20px;height:16px}
+.mine_header .mine_head_top .goback{left:.5rem}
+.mine_header .mine_head_top .goback img{width:13px}
+.mine_header .mine_head_top .share{right:.575rem}
+.mine_content{width:100%;margin-top:1.8375rem}
+.mine_user .user_img{width:3.3rem;height:3.3rem;margin:0 auto;border-radius:1.65rem;background:url(../images/touxiang.png) no-repeat 50% 10%;background-size:180% 130%;box-shadow:1px 3px 3px 1px #ff7f3f,-1px -2px 3px 1px #ff7f3f}
+.mine_user .name{margin-top:.475rem;font-size:.475rem;color:#f4f3ec;font-weight:bolder;text-align:center}
+.mine_nav{width:100%}
+.mine_nav .nav_ul{display:block;width:80.6%;margin:0 auto;display:flex;flex-direction:row;justify-content:space-between;margin-top:.9125rem}
+.mine_nav .nav_ul .nav_list{text-align:center}
+.mine_nav .nav_ul .nav_list h4{font-size:.475rem;color:#fff;font-family:'黑体'}
+.mine_nav .nav_ul .nav_list span{margin-top:.275rem;font-size:.275rem;color:#fff}
+.mine_nav .nav_ul .nav_list.active h4,.mine_nav .nav_ul .nav_list.active span{color:#fce904}
+.content_bottom{width:100%;position:absolute;top:45%;display:flex;flex-direction:row;justify-content:space-around}
+.content_bottom figure{width:44.8%;border-radius:.125rem;border:1px solid #fff;overflow:hidden}
+.content_bottom figure img{width:100%}
+.content_bottom figure figcaption{height:1.4rem;width:100%;background-color:#ff704d;margin-top:-2%;padding:.2875rem 6%;box-sizing:border-box}
+.content_bottom figure figcaption h5{font-size:.35rem;color:#fff;font-family:'黑体'}
+.content_bottom figure figcaption h5 time{float:right;font-size:.2em;color:#ffc7b9}
+.content_bottom figure figcaption .span_wt{width:100%;height:.5875rem;line-height:.6rem;display:flex;flex-direction:row;justify-content:space-between}
+.content_bottom figure figcaption .span_wt span{font-size:.20625rem;width:30%;color:#ffc7b9}
+.content_bottom figure figcaption .span_wt span:first-child{background:url(../images/mine_heart.png) no-repeat 100% 50%;-webkit-background-size:.375rem;background-size:.375rem}
+.content_bottom figure figcaption .span_wt span:nth-child(2){background:url(../images/mine_pinglun.png) no-repeat 100% 50%;-webkit-background-size:.375rem;background-size:.375rem}
+.mine_footer{width:100%;height:2.05625rem;position:fixed;bottom:0;display:flex;flex-direction:row;justify-content:space-around;align-items:center;background:url(../images/mine_bottom1.png) no-repeat,url(../images/mine_bottom2.png) no-repeat 0 90%;background-size:cover}
+.mine_footer .mine_foot{height:.85rem;width:.53rem}
+.mine_footer .active{box-shadow:0 2px 0 0 #fb5834}
+.mine_footer .mine_foot img{width:.5rem;height:.6875rem}

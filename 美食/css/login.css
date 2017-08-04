@@ -1,0 +1,16 @@
+@charset "utf-8";*{margin:0;padding:0}
+a{text-decoration:none}
+html{height:100%;font-size:62.5%}
+body{background:url(../images/login_bg.png) no-repeat;background-size:cover;width:100%;height:100%;position:relative}
+.ms_login_header{width:100%;text-align:center;padding-top:2rem}
+.ms_login_header img{width:35px;height:54px}
+.ms_login_body{text-align:center;padding-top:1.875rem;box-sizing:border-box}
+.ms_login_body input{background-color:transparent;border:none;border-bottom:1px solid #fe836e;box-shadow:0 1px 0 0 #fb4e39;height:1.1rem;width:84%;text-indent:21%;font-size:1.1em;outline:0}
+.ms_login_body input::placeholder{color:#ffb6aa}
+.ms_login_body input:first-child{background:url(../images/userName.png) no-repeat 6% 50%;-webkit-background-size:21px;background-size:21px}
+.ms_login_body input:nth-child(2){background:url(../images/lock.png) no-repeat 6.5% 50%;-webkit-background-size:16px;background-size:16px}
+.ms_login_body button{display:block;margin:0 auto;margin-top:1.2rem;width:53%;height:1.25rem;border-radius:25px;border:none;box-shadow:0 2px 3px 1px #fb5d42;color:#fb4449;font-size:1.6em;word-spacing:2px;font-weight:bolder;font-family:'宋体';outline:0}
+.ms_login_body a{display:inline-block;margin-top:.45rem;color:#ffbfae;font-size:12px}
+.ms_login_footer{height:3.75rem;position:fixed;bottom:0;left:0;right:0;background:url(../images/login_bottom1.png) no-repeat,url(../images/login_bottom2.png) no-repeat,url(../images/login_bottom3.png) no-repeat;background-size:cover;display:flex;flex-direction:row;justify-content:space-around;align-items:center}
+.ms_login_footer .foot_img{width:1.2125rem;height:1.2125rem;vertical-align:middle;background-color:#fff;border-radius:1.2125rem;display:flex;flex-direction:row;align-items:center;border:1px solid #f6a98a}
+.ms_login_footer .foot_img img{width:.8rem;margin:0 auto;vertical-align:middle}

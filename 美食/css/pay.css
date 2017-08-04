@@ -1,0 +1,28 @@
+@charset "utf-8";*{margin:0;padding:0}
+a{text-decoration:none}
+li{list-style:none}
+html{height:100%;font-size:62.5%;font-family:'宋体'}
+body{background:url(../images/pay_bg.png) no-repeat;background-size:cover;width:100%;height:100%;position:relative}
+.pay_header{width:100%;position:fixed;top:0;z-index:1000}
+.pay_header .pay_head_top{width:100%;height:1.25rem;background-color:#fd5c44;text-align:center;position:relative;line-height:1.5rem;font-size:.45rem;font-weight:700;color:#ffebe7;word-spacing:2px}
+.pay_header .pay_head_top .font{position:absolute}
+.pay_header .pay_head_top .font img{width:.375rem;height:.4rem}
+.pay_header .pay_head_top .goback{left:.5rem}
+.pay_header .pay_head_top .goback img{width:.3rem}
+.pay_header .pay_head_top .share{right:.575rem}
+.pay_content{margin-top:1.25rem;padding-top:.425rem;width:100%}
+.pay_content .swiper-wrapper .swiper-slide{width:100%;height:6rem;display:flex;flex-direction:row;justify-content:space-around;width:100%}
+.pay_content .swiper-wrapper .swiper-slide .img{position:relative;margin:0 .225rem;background-color:#fff;width:81.2%;display:flex;justify-content:center;align-items:center;border-radius:.1rem;border:.05rem solid #fd523e;overflow:hidden}
+.pay_content .swiper-wrapper .swiper-slide .img img{width:38%}
+.pay_content .swiper-wrapper .swiper-slide .icon_hot{position:absolute;top:0;left:.375rem}
+.pay_content .swiper-wrapper .swiper-slide .icon_hot img{width:.65rem}
+.pay_content .swiper-wrapper .swiper-slide .icon_hot span{color:#fff;position:absolute;top:10%;left:15%}
+.pay_showarea{width:100%;text-align:center}
+.pay_showarea .star{margin-top:.6625rem;height:.4rem;line-height:.4rem}
+.pay_showarea .star span{margin:0 .05rem}
+.pay_showarea .star img{width:.3rem;height:.3rem}
+.pay_showarea .name{height:1.3625rem;line-height:1.3625rem;font-size:.425rem;color:#feebe7}
+.pay_showarea .price{font-size:.4rem;color:#feeb06;font-weight:700;text-shadow:#ee2e6c 0 1px 0,#ee2e6c 0 -1px 0}
+.pay_showarea .jianjie{font-size:.3125rem;margin-top:.35rem;color:#fab3aa;padding:0 .3rem;line-height:.5rem;margin-bottom:.85rem}
+.pay_showarea button{width:83.6%;height:.9375rem;line-height:.9375rem;margin-bottom:.3375rem;border-radius:.45rem;outline:0;border:1px solid #fec992;background-color:transparent;color:#fff;font-size:.4rem}
+.pay_showarea .now_pay{border-color:#edc23a;background-color:#ffa501}

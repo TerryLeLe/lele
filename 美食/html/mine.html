@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我的</title>
+	<link rel="stylesheet" href="../css/mine.css"> 
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta http-equiv="Expires" content="-1">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta http-equiv="Pragma" content="no-cache">
+	<script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
+
+	<script type="text/javascript" src="../js/flexible.js"></script>
+</head>
+<body>
+	<!-- 头部菜单 -->
+	<header class="mine_header">
+		<div class="mine_head_top">我的美食
+			<font class="font goback"><img src="../images/mine_goback.png" alt=""></font>
+			<font class="font share"><img src="../images/index_share.png" alt=""></font>
+		</div>
+	</header>
+	<main class="mine_content">
+		<div class="waitao" style="height: 45%">
+			<div class="mine_user">
+				<div class="user_img"></div>
+				<p class="name">叫点什么好呢</p>
+			</div>
+			<div class="mine_nav">
+				<ul class="nav_ul">
+					<li class="nav_list">
+						<h4 class="data">3万</h4>
+						<span class="miaoshu">人看过</span>
+					</li>
+					<li class="nav_list active">
+						<h4 class="data">1000</h4>
+						<span class="miaoshu">人喜欢</span>
+					</li>
+					<li class="nav_list">
+						<h4 class="data">1300</h4>
+						<span class="miaoshu">人关注</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="content_bottom">
+			<figure>
+				<img src="../images/mine_cake.png" alt="">
+				<figcaption>
+					<h5>清凉一夏<time>2017/05/22</time></h5>
+					<div class="span_wt">
+						<span class="heart">650</span>
+						<span class="pinglun">123</span>
+					</div>
+				</figcaption>
+			</figure>
+			<figure>
+				<img src="../images/mine_musicake.png" alt="">
+				<figcaption>
+					<h5>清凉一夏<time>2017/05/22</time></h5>
+					<div class="span_wt">
+						<span class="heart">650</span>
+						<span class="pinglun">123</span>
+					</div>
+				</figcaption>
+			</figure>
+		</div>
+	</main>
+
+	<footer class="mine_footer">
+		<div class="mine_foot">
+			<img src="../images/index_GPS.png" alt="">
+		</div>
+		<div class="mine_foot">
+			<img src="../images/index_shouye.png" alt="" style="width: 0.6rem;height: 0.65rem">
+		</div>
+		<div class="mine_foot active">
+			<img src="../images/index_mine.png" alt="" style="height: 0.6rem;">
+		</div>
+	</footer>
+
+</body>
+<script type="text/javascript">
+	 $(".mine_foot").click(function(){
+  	$(this).siblings().removeClass("active")
+  	$(this).addClass("active")
+  })
+</script>
+</html>

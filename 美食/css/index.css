@@ -1,0 +1,25 @@
+@charset "utf-8";*{margin:0;padding:0}
+a{text-decoration:none}
+html{height:100%;font-size:62.5%;font-family:'宋体'}
+body{background:url(../images/index_bg.png) no-repeat;background-size:cover;width:100%;height:100%;position:relative}
+.index_header{width:100%;position:fixed;top:0}
+.index_header .index_head_top{width:100%;height:1.25rem;background-color:#fd5c44;text-align:center;position:relative;line-height:1.5rem;font-size:.45rem;font-weight:700;color:#ffebe7;word-spacing:2px}
+.index_header .index_head_top .font{position:absolute}
+.index_header .index_head_top .font img{width:20px;height:16px}
+.index_header .index_head_top .menu{left:.5rem}
+.index_header .index_head_top .share{right:.575rem}
+.index_content{width:100%;margin-top:1.25rem;padding-top:1.125rem;padding-bottom:1.125rem;box-sizing:border-box;position:relative}
+.index_content .center{width:72%;height:9.775rem;margin:0 auto}
+.index_content .center img{width:100%;float:left}
+.index_content .center figcaption{width:100%;float:left;margin-top:-.325rem;z-index:10;height:4.3rem;background:url(../images/index_showText_bg.png) no-repeat;-webkit-background-size:cover;background-size:cover;box-sizing:border-box;padding:.9rem .4rem;position:relative}
+.index_content .center figcaption h3{font-size:.375rem}
+.index_content .center figcaption p{margin-top:.3375rem;font-size:.275rem;color:#757575}
+.index_content .center figcaption .figure_choose{width:100%;margin-top:.35rem;display:flex;position:relative;flex-direction:row-reverse}
+.index_content .center figcaption .figure_choose .pinglun,.index_content .center figcaption .figure_choose .shoucang{display:inline-block;width:.875rem;height:.875rem;background-color:#fff;border-radius:.45rem;box-shadow:2px 1px 1px 1px #fdb7b3,-2px -1px 1px 1px #fdb7b3;display:flex;flex-direction:row;justify-content:center;align-items:center;float:left;margin-left:.5rem}
+.index_content .center figcaption .figure_choose .time{display:inline-block;font-size:.25rem;color:#b2b2b2;position:absolute;left:0;line-height:.875rem}
+.index_content .center figcaption .figure_choose .pinglun img,.index_content .center figcaption .figure_choose .shoucang img{width:57%}
+.index_content .page{font-size:.4rem;text-align:center;color:#fff;position:absolute;bottom:-1.125rem;left:50%;transform:translateX(-50%)}
+.index_footer .foot_img{width:100%;height:2.0625rem;background:url(../images/index_bottom1.png) no-repeat,url(../images/index_bottom2.png) no-repeat 0 98%;-webkit-background-size:cover;background-size:cover;position:fixed;bottom:0;padding:0 1.9625rem;box-sizing:border-box;display:flex;flex-direction:row;justify-content:space-between;align-items:center;z-index:1000}
+.index_footer .foot_img .img_wt{height:.75rem;width:.6625rem;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.index_footer .foot_img .active{box-shadow:0 2px 0 0 red}
+.index_footer .foot_img img{width:.62rem;height:.63rem}

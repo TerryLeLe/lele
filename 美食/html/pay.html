@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>支付</title>
+	<link rel="stylesheet" href="../css/pay.css"> 
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta http-equiv="Expires" content="-1">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta http-equiv="Pragma" content="no-cache">
+
+	<script type="text/javascript" src="../js/flexible.js"></script>
+
+	<link rel="stylesheet" href="../css/swiper.min.css">
+	<script type="text/javascript" src="../js/swiper.min.js"></script>
+</head>
+<body>
+	
+	<!-- 头部菜单 -->
+	<header class="pay_header">
+		<div class="pay_head_top">烘焙甜品
+			<font class="font goback"><img src="../images/mine_goback.png" alt=""></font>
+			<font class="font share"><img src="../images/index_share.png" alt=""></font>
+		</div>
+	</header>
+	<main class="pay_content">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="img">
+					<img src="../images/pay_cake1.png" alt="">
+					<div class="icon_hot"><img src="../images/pay_iconhot.png" alt=""><span>HOT</span></div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="img">
+					<img src="../images/pay_cake1.png" alt="">
+					<div class="icon_hot"><img src="../images/pay_iconhot.png" alt=""><span>HOT</span></div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="img">
+					<img src="../images/pay_cake1.png" alt="">
+					<div class="icon_hot"><img src="../images/pay_iconhot.png" alt=""><span>HOT</span></div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="img">
+					<img src="../images/pay_cake1.png" alt="">
+					<div class="icon_hot"><img src="../images/pay_iconhot.png" alt=""><span>HOT</span></div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="img">
+					<img src="../images/pay_cake1.png" alt="">
+					<div class="icon_hot"><img src="../images/pay_iconhot.png" alt=""><span>HOT</span></div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="pay_showarea">
+			<h6 class="star"><span><img src="../images/pay_start.png" alt=""></span><span><img src="../images/pay_start.png" alt=""></span><span><img src="../images/pay_start.png" alt=""></span><span><img src="../images/pay_start.png" alt=""></span><span><img src="../images/pay_start.png" alt=""></span></h6>
+			<h5 class="name">法式翻糖泡芙</h5>
+			<p class="price">$25</p>
+			<p class="jianjie">采用精炼纯天然小麦面粉<br>
+产自古巴的可可粉，来自丹麦的奶油按照配比进行调和<br>再抹上法国黄油烘焙2小时，挑战你的味蕾</p>
+<button class="now_pay">立即购买</button>
+<button class="pay_car">加入购物车</button>
+		</div>
+	</main>
+</body>
+<script type="text/javascript">
+	var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'horizontal',
+    loop: true,
+    autoplay:3000,
+    
+ effect: 'coverflow',  
+        grabCursor: true,  
+        centeredSlides: true,  
+       
+        slidesPerView: 'auto',  
+        coverflow: {  
+            rotate: 0,// 旋转的角度  
+            stretch: 255,// 拉伸   图片间左右的间距和密集度  
+            depth: 0,// 深度   切换图片间上下的间距和密集度  
+            modifier: 3,// 修正值 该值越大前面的效果越明显  
+            slideShadows : false// 页面阴影效果  
+        }  
+  })  
+</script>
+</html>
