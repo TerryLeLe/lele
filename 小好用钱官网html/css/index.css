@@ -1,0 +1,31 @@
+@charset "gb2312";
+/*=====首页样式=====*/
+
+/*=====优势=====*/
+.xhotg_ys {padding:20px 0;}
+.xhotg_ys dl {width:300px;float:left;}
+.xhotg_ys dl dt {float:left;margin:0 20px;}
+.xhotg_ys dl dd {width:180px;float:left;}
+.xhotg_ys dl dd h3 {font:bold 16px/30px "微软雅黑", "黑体";color:#000;padding-top:10px;}
+.xhotg_ys dl dd p {font:normal 12px/20px "微软雅黑", "黑体";color:#666;}
+
+/*=====贷款类型=====*/
+a.xhotg_lx {float:left;display:block;width:255px;height:160px;padding:20px 0 0 30px;margin:0 5px 10px; text-decoration:none;}
+.xhotg_lx h3 {font:bold 30px/50px "微软雅黑", "黑体";color:#fff;}
+.xhotg_lx p {font:normal 18px/30px "微软雅黑", "黑体";color:#fff;}
+.xhotg_fd {background:url(../images/xhotg_fd.jpg) no-repeat;}
+.xhotg_cd {background:url(../images/xhotg_cd.jpg) no-repeat;}
+.xhotg_bx {background:url(../images/xhotg_bx.jpg) no-repeat;}
+.xhotg_qyz {background:url(../images/xhotg_qyz.jpg) no-repeat;}
+.xhotg_sbz {background:url(../images/xhotg_sbz.jpg) no-repeat;}
+.xhotg_jyq {background:url(../images/xhotg_jyq.jpg) no-repeat;}
+
+/*=====合作伙伴=====*/
+.hzhb {background:#fff;padding:0 15px 10px;margin-bottom:10px;}
+.hzhbtit {font:bold 18px/50px "微软雅黑", "黑体";border-bottom:solid 1px #ccc;}
+.hzhbcont {padding:10px;}
+
+/*=====友情链接=====*/
+.yqlj {padding:20px 5px;}
+.yqlj h3 {float:left;font:bold 16px/30px "微软雅黑", "黑体";}
+.yqlj a {display:block;margin:0 30px;float:left;font:normal 14px/35px "微软雅黑", "黑体";}
