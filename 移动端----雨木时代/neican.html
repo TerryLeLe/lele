@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	    <meta name="viewport" content="width=640, user-scalable=no"/>
+	    <meta name="format-detection" content="telephone=no" />
+	    <meta name="apple-mobile-web-app-capable" content="yes" />
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<script type="text/javascript" src="js/loading.js" ></script>
+		<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<img src="images/logo.png" class="logo float_left" />
+			<input type="text" class="search float_right" />
+			<button class="search_bth"><img src="images/search.png" /></button>
+			<div class="clear"></div>
+		</div>
+		<div class="nav list_nav">
+			<ul>
+				<li><a href="#">赏析</a></li>
+				<li class="check"><a href="#">内参</a></li>
+				<li><a href="#">剧本</a></li>
+				<li><a href="#">人才</a></li>
+				<li><a href="#">众投</a></li>
+				<li><a href="#">发行</a></li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+		<div id="banner" class="banner">
+			<div class="bd">
+				<ul>
+					<li><a class="pic" href="#" title=""><img src="temp/5.jpg" alt="" /></a></li>
+					<li><a class="pic" href="#" title=""><img src="temp/5.jpg" alt="" /></a></li>
+					<li><a class="pic" href="#" title=""><img src="temp/5.jpg" alt="" /></a></li>
+				</ul>
+			</div>
+			<div class="hd">
+				<ul></ul>
+			</div>
+		</div>
+		<div class="bg"></div>
+		<div class="juben_tab tab border">
+			<ul>
+				<li><a href="#" title="">微电影</a></li>
+				<li class="check"><a href="#" title="">网络剧</a></li>
+				<!--<li><a href="#" title="">网络大电影</a></li>-->
+			</ul>
+			<div class="clear"></div>
+		</div>		
+		<div class="neican">
+			<a href="#" title="">
+				<div class="float_left neican_left">					
+					<img src="temp/6.jpg" />
+				</div>
+				<div class="float_right neican_right">
+					<p>《afdsfdsdg》赏析美人鱼赏析</p>
+					<div class="read">
+						<span>爱情 励志</span><span>60</span>阅读
+					</div>
+				</div>
+				<div class="clear"></div>
+			</a>
+		</div>		
+		<div class="neican">
+			<a href="#" title="">
+				<div class="float_left neican_left">					
+					<img src="temp/6.jpg" />
+				</div>
+				<div class="float_right neican_right">
+					<p>《afdsfdsdg》赏析美人鱼赏析</p>
+					<div class="read">
+						<span>爱情</span><span>12</span>阅读
+					</div>
+				</div>
+				<div class="clear"></div>
+			</a>
+		</div>	
+        <div class="more"><a href="#">加载更多</a></div>
+		<div class="commend"><a href="#">我要投稿</a></div>
+		<!--bottom-->
+		<div class="bottom">
+			<ul>
+				<!-- <li class="check"><a href="#">电脑版</a></li>
+				<li><a href="#">手机版</a></li> -->
+			</ul>
+			<p>Copyright © 2011-2016&nbsp;&nbsp;&nbsp;雨木时代&nbsp;&nbsp;&nbsp;京ICP备12001467号&nbsp;&nbsp;&nbsp;京公网安备11010802011460号</p>
+		</div>
+	</body>
+<script type="text/javascript" src="js/TouchSlide.js"></script>
+<script type="text/javascript">
+//轮播
+TouchSlide({ 
+	slideCell:"#banner",
+	titCell:".hd ul", 
+	mainCell:".bd ul", 
+	effect:"leftLoop", 
+	autoPage:true,
+	autoPlay:3000
+});
+</script>
+</html>
